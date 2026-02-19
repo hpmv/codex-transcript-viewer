@@ -1,0 +1,13 @@
+Codex VS Code webview bundle archive
+
+File: codex-webview-bundle.tar.gz
+Source: /tmp/openai-chatgpt-market/extension/webview (from OpenAI VSIX)
+Captured: 2026-02-19
+
+Extract with:
+  tar -xzf codex-webview-bundle.tar.gz
+
+Contents:
+  webview/index.html
+  webview/assets/*
+  webview/apps/*
