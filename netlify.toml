@@ -1,0 +1,8 @@
+[build]
+command = "npm run netlify:build"
+publish = "dist"
+
+[[redirects]]
+from = "/*"
+to = "/codex_webview_bundle/webview/index.html"
+status = 200

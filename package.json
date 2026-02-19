@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "node scripts/build-netlify.mjs",
+    "netlify:build": "node scripts/build-netlify.mjs",
     "start": "node server/index.mjs",
     "check": "node codex_webview_bundle/viewer/dev-checks.mjs"
   }
