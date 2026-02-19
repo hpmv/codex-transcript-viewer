@@ -1,0 +1,9 @@
+{
+  "name": "codex-transcript-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "check": "node codex_webview_bundle/viewer/dev-checks.mjs"
+  }
+}
